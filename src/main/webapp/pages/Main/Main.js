@@ -26,3 +26,17 @@ Application.$controller("SamplwController", ["$scope", function ($scope) {
 		// this method will be triggered post initialization of the prefab.
 	};
 }]);
+
+Application.$controller("sampleJavaOperationTable1Controller", ["$scope",
+	function($scope) {
+		"use strict";
+		$scope.ctrlScope = $scope;
+	}
+]);
+
+Application.$controller("logindialog1Controller", ["$scope",
+	function($scope) {
+		"use strict";
+		$scope.ctrlScope = $scope;
+	}
+]);
